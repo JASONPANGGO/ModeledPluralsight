@@ -1,0 +1,488 @@
+html,body{
+    /* width: 100%; */
+    height: 100%;
+}
+
+/* 左边navbar */
+.navbar{
+    float: left;
+    width: 65px;
+    height: 100%;
+    background-color: #222222;
+    position: fixed;
+    box-shadow: 30px 0px 100px black;
+    z-index: 2;
+}
+
+
+.nav-logo,.site-logo{
+    float: left;
+    position: fixed;
+    color: #ffffffbe;
+    top: 10px;
+}
+
+.nav-logo{
+    width: 65px;
+    height: 3em;
+
+}
+
+
+
+.site-logo{
+    color: white;
+    padding-left: 18px;
+    padding-top:5px;
+}
+
+.nav-logo-2 i,.nav-logo-3 i,.nav-logo-4 i,.nav-logo-5 i,.nav-logo-6 i,.nav-logo-7 i,.nav-logo-8 i{
+    font-size: 25px;
+}
+
+.nav-logo-1,.nav-logo-2,.nav-logo-3,.nav-logo-4,.nav-logo-5,.nav-logo-6,.nav-logo-7,.nav-logo-8{
+    text-align: center;
+    line-height: 3.5em;
+}
+
+.nav-logo-1{
+    margin-top: 4em;
+}
+
+.nav-logo-2{
+    margin-top: 7em;
+    
+}
+
+.nav-logo-3{
+    margin-top: 10em;
+}
+
+.nav-logo-4{ 
+    margin-top: 13em;
+}
+
+.nav-logo-5{
+    margin-top: 16em;
+}
+
+.nav-logo-6{
+    margin-top: 19em;
+}
+
+.nav-logo-7{
+    margin-top: 22em;
+}
+
+.nav-logo-8{
+    margin-top: 25em;
+}
+.selected{
+    color: rgb(0, 255, 149);
+}
+/* 左边navbar */
+
+/* 左边navbar的完整部分 */
+
+.navbar-full{
+    animation: mymove 0.2s;
+    width: 200px;
+    box-shadow: 70px 0px 300px black;
+    z-index: 9999;
+}
+
+@keyframes mymove{
+    from{width: 65px;}
+    to{width: 200px;}
+}
+
+.name-move{
+    animation: namemove 0.2s;
+}
+
+@keyframes namemove{
+    from{margin-left: 55px;}
+    to{margin-left: 65px;}
+}
+
+.site-name{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    color: white;
+    position: fixed;
+    margin-left: 70px;
+    margin-top: 12px;
+    display: none;
+}
+.nav-logo-name{
+    position: fixed;
+    color: white;
+    margin-top: 66px;
+    margin-left: 65px;
+    height: 3em;
+    width:  135px;
+    line-height:3em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: none;
+}
+.video{
+    margin-top: 108px;
+}
+.charge{
+    margin-top: 150px;
+}
+.map{
+    margin-top: 192px;
+}
+.books{
+    margin-top: 234px;
+}
+.marks{
+    margin-top: 276px;
+}
+.hand{
+    margin-top: 318px;
+}
+.advice{
+    margin-top: 360px;
+}
+.hovered{
+    color: rgb(0, 255, 149);
+    background-color: gray;
+    cursor: pointer;
+    transition: .2s;
+}
+/* 上方navbar-search */
+.navbar-top-mobile{
+    display: none;
+}
+
+input{
+    box-shadow:none;
+}
+.navbar-top{
+    position: fixed;
+    width: 100%;
+    height: 61px;
+    background-color: #272727;
+    z-index: 1;
+}
+.search-bar{
+    float: left;
+    margin-left: 100px;
+    margin-top: 10px;
+    width: 400px;
+}
+.input-group-addon{
+    background-color:  rgb(63, 63, 63);
+    border: none;
+    border-top: 1px solid rgba(59, 59, 59, 0.9);
+    padding: 0;
+    min-height: 30px;
+    height: 30px;
+}
+
+.search-bar i{
+    color: white;
+    font-size: 22px;
+
+    width: 40px;
+    height: 40px;
+    padding-top: 10px;
+    margin-top: -6px;
+}
+#search-input{
+    margin-left: 0;
+    margin-top: 0px;
+    background-color: rgb(63, 63, 63);
+    border:none;
+    height: 40px;
+}
+
+.user{
+    float: right;
+    width: 261px;
+    height: 61px;
+    transition: .3s;
+    cursor: pointer;    
+}
+
+.user-info{
+    float: left;
+    width: 200px;
+    height: 61px;
+    padding-right: 70px;
+    /* background-color: blue; */
+    transition: .3s;
+}
+
+.user-info:hover{
+    background-color: rgb(63, 63, 63);
+}
+
+.user-name{
+    float: right;
+    padding-top: 12px;
+    color: white;
+}
+
+.user-email{
+    float: right;
+    font-size: 12px;
+    margin-top: -2px;
+    color: gray;
+}
+.user-avatar{
+    position: absolute;
+    color: white;
+    margin-top: 10px;
+    margin-left: 150px;
+    font-size: 20px;
+}
+.user-more{
+    float: right;
+    color: #5e5e5e;
+    margin-right: 0px;
+    width: 61px;
+    height: 61px;
+    line-height: 61px;
+    text-align: center;
+    font-size: 20px;
+    transition: .3s;
+    cursor: pointer;
+}
+.user-more:hover{
+    background-color: rgb(63, 63, 63);
+    color: white;
+}
+
+.user ul{
+    position: fixed;
+    margin-top: 61px;
+    margin-left: 61px;
+    padding: 0;
+    width: 200px;
+    height: 520px;
+    border-radius: 3px;
+    background-color: white;
+    display: none;
+    z-index: 2;
+}
+ul li{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    list-style: none;
+    padding: 5px;
+    padding-left: 10px;
+    transition: .3s;
+}
+ul li:hover{
+    background-color: rgb(221, 221, 221);
+}
+.my-hr{
+    background-color: #d4d4d4;
+    margin: 5px;
+}
+
+/* 页面主体内容 */
+.main_container{
+    width:100%;
+    height:1800px;
+    background-color: rgba(0, 0, 0,0.9);
+    padding-top: 61px;
+}
+.head-video{
+    margin-left: 65px;
+    height: 500px;
+    overflow: hidden;
+    z-index: 0;
+    position: relative;
+}
+.head-video video{
+    width: 100%;
+    
+}
+
+.main_content{
+    width: 100%;
+    height: 500px;
+    background-color: aqua;
+    box-shadow: 0px -70px 100px #888888 ;
+
+}
+.main_container #vs{
+    position: absolute;
+    color: white;
+    margin-left: 110px;
+    margin-top: -50%;
+}
+.head-video h1 img{
+    padding-bottom: 10px;
+    width: 40px;
+}
+#build{ 
+    position: absolute;
+    color: white;
+    width: 400px;
+    margin-top: -45%;
+    margin-left: 110px;
+    font-weight: bold;
+}
+.history-title{
+    width: 200px;
+    position: absolute;
+    color: white;
+    margin-top: -30%;
+    margin-left: 110px;
+}
+.history-title h5,.history-title h4,.history-title i{
+    float: left;
+}
+.history-title h5{
+    color: rgb(0, 255, 149);
+    padding-top: 4px;
+    margin-left: 20px;
+}
+.history-title h5:hover{
+   text-decoration: underline;
+}
+
+.history-title i{
+    color: rgb(0, 255, 149);
+    padding-top: 15px;
+    margin-left: 10px;
+}
+
+.history-course{
+    position: absolute;
+    width: 1340px;
+    height: 300px;
+    /* background-color: antiquewhite; */
+    margin-left: 170px;
+    margin-top: -60px;
+    z-index: 0;
+}
+
+.course{
+    width: 300px;
+    float: left;
+    margin-right: 15px;
+}
+
+.course-img{
+    width: 100%;
+}
+.history-course img{
+    width: 100%;
+}
+
+.course-play{
+    width: 300px;
+    height: 140px;
+    background-color: rgba(0, 0, 0,0.6);
+    position: absolute;
+    display: none;
+}
+
+.course-play i{
+    color: white;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.course-play .fa-play-circle-o{
+    margin-left: 130px;
+    margin-top: 10px;
+    
+}
+
+.course-play .fa-tag{
+    margin-left: 270px;
+    font-size: 22px;
+    margin-top: 5px;
+}
+
+.course-play i:hover {
+    color: rgb(0, 255, 149);
+}
+
+.course-play .glyphicon{
+    position: absolute;
+    font-size: 22px;
+    margin-left: 230px;
+    margin-top: 5px;
+    color: white;
+}
+
+.history-course h4{
+    font-size: 16px;
+    color: white;
+    margin-bottom: 0;
+}
+.history-course h5{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    color: gray;
+}
+
+.course-name h4:hover{
+    text-decoration: white;
+}
+
+.history-preview{
+    width: 320px;
+    background-color: aliceblue;
+    overflow: hidden;
+    margin: 0;
+}
+
+.history-course .fa-angle-right{
+    color: white;
+    margin-top: 40px;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.history-course .fa-angle-right:hover{
+    color: rgb(0, 255, 149);
+}
+
+/* 搜索页面 */
+.search-page{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(44, 44, 44, 0.9);
+    display: none;
+    z-index: 3;
+}
+
+.search-title{
+    margin-left: 100px;
+    margin-top: 30px;
+    color: white;
+    font-family: "Microsoft YaHei";
+}
+
+.search-input-full{
+    width: 80%;
+    height: 100px;
+    margin-left: 100px;
+    background-color: rgba(0, 0, 0, 0.0);
+    border: none;
+    font-size: 70px;
+    caret-color: white;
+    outline: none;
+    color: white;
+}
+.fa-times{
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 50px;
+    color: white;
+    cursor: pointer;
+}
+.fa-times:hover{
+    color: rgb(0, 255, 149);
+}

@@ -1,0 +1,100 @@
+.navbar{
+    display: none;
+    margin-top: 61px;
+}
+
+.nav-logo-1{
+    margin-top: 117px;
+}
+
+.nav-logo-2{
+    margin-top: 159px;
+}
+.nav-logo-3{
+    margin-top: 201px;
+}
+.nav-logo-4{
+    margin-top: 243px;
+}
+.nav-logo-5{
+    margin-top: 285px;
+}
+.nav-logo-6{
+    margin-top: 327px;
+}
+
+.nav-logo-7{
+    margin-top: 369px;
+}
+
+.nav-logo-8{
+    margin-top: 411px;
+}
+
+.site-logo{
+    margin-top: 61px;
+}
+
+.nav-logo-name{}
+
+.navbar-top-mobile{
+    display: block;
+}
+
+.search-bar{
+    display: none;
+}
+
+.user{
+    display: none;
+}
+
+.navbar-top-mobile .fa-navicon{
+    float: left;
+    color: white;
+    margin-top: 15px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.site-name-top{
+    float: left;
+    color: white;
+    margin-top: 10px;
+    margin-left: 35%;
+    font-size: 27px;
+}
+
+.navbar-top-mobile .fa-search{
+    color: white;
+    margin-top: 15px;
+    float: right;
+    margin-right: 10px;
+}
+
+.head-video{
+    margin-left: 0;
+}
+
+.main_container #vs,#build{
+    margin-left: 10px;
+}
+
+#build{
+    margin-top: -40%;
+}
+
+.history-title{
+    margin-top: -20%;
+    margin-left: 10px;
+}
+
+.history-course{
+    margin-left: 20%;
+    margin-top: -20%;
+}
+
+.course{
+    float: none;
+    margin-top: 20px;
+}
